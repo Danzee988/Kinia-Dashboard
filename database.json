@@ -1,44 +1,285 @@
 {
   "targets": {
-    "educators":      [26000, 29000, 32000, 36000, 41000, 46000, 50000],
-    "eduSupported":   [null,  null,  null,  null,  null,  null,  null],
-    "youngPeople":    [380000,430000,490000,560000,650000,730000,800000],
-    "orgsEngaged":    [null,  null,  null,  null,  null,  null,  null],
-    "revenue":        [1.85,  2.05,  2.35,  2.55,  2.72,  2.88,  3.00],
-    "seRevenue":      [0.20,  0.27,  0.38,  0.44,  0.52,  0.59,  0.65],
-    "grantRevenue":   [1.35,  1.48,  1.60,  1.72,  1.82,  1.92,  2.00],
-    "otherRevenue":   [0.30,  0.30,  0.37,  0.39,  0.38,  0.37,  0.35],
-    "grantPct":       [92,    90,    85,    82,    80,    79,    78],
-    "sePct":          [11,    13,    16,    17,    19,    21,    23],
-    "eduCredentials": [200,   350,   600,   1000,  1600,  2400,  3000],
-    "youthBadges":    [100,   200,   400,   800,   3000,  7000,  10000],
-    "platformUsers":  [1800,  2400,  4000,  5500,  7000,  8500,  10000],
-    "irishMedSchools":[8,     14,    20,    40,    65,    85,    100]
+    "educators": [
+      26000,
+      29000,
+      32000,
+      36000,
+      41000,
+      46000,
+      50000
+    ],
+    "eduSupported": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "youngPeople": [
+      380000,
+      430000,
+      490000,
+      560000,
+      650000,
+      730000,
+      800000
+    ],
+    "orgsEngaged": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "revenue": [
+      1.85,
+      2.05,
+      2.35,
+      2.55,
+      2.72,
+      2.88,
+      3
+    ],
+    "seRevenue": [
+      0.2,
+      0.27,
+      0.38,
+      0.44,
+      0.52,
+      0.59,
+      0.65
+    ],
+    "grantRevenue": [
+      1.35,
+      1.48,
+      1.6,
+      1.72,
+      1.82,
+      1.92,
+      2
+    ],
+    "otherRevenue": [
+      0.3,
+      0.3,
+      0.37,
+      0.39,
+      0.38,
+      0.37,
+      0.35
+    ],
+    "grantPct": [
+      92,
+      90,
+      85,
+      82,
+      80,
+      79,
+      78
+    ],
+    "sePct": [
+      11,
+      13,
+      16,
+      17,
+      19,
+      21,
+      23
+    ],
+    "eduCredentials": [
+      200,
+      350,
+      600,
+      1000,
+      1600,
+      2400,
+      3000
+    ],
+    "youthBadges": [
+      100,
+      200,
+      400,
+      800,
+      3000,
+      7000,
+      10000
+    ],
+    "platformUsers": [
+      1800,
+      2400,
+      4000,
+      5500,
+      7000,
+      8500,
+      10000
+    ],
+    "irishMedSchools": [
+      8,
+      14,
+      20,
+      40,
+      65,
+      85,
+      100
+    ]
   },
   "actuals": {
-    "educators":      [null, null, null, null, null, null, null],
-    "eduSupported":   [null, null, null, null, null, null, null],
-    "youngPeople":    [null, null, null, null, null, null, null],
-    "orgsEngaged":    [null, null, null, null, null, null, null],
-    "revenue":        [null, null, null, null, null, null, null],
-    "seRevenue":      [null, null, null, null, null, null, null],
-    "grantRevenue":   [null, null, null, null, null, null, null],
-    "sePct":          [null, null, null, null, null, null, null],
-    "eduCredentials": [null, null, null, null, null, null, null],
-    "youthBadges":    [null, null, null, null, null, null, null],
-    "platformUsers":  [null, null, null, null, null, null, null],
-    "irishMedSchools":[null, null, null, null, null, null, null]
+    "educators": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "eduSupported": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "youngPeople": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "orgsEngaged": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "eduCredentials": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "youthBadges": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "platformUsers": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "irishMedSchools": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "revenue": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "seRevenue": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "grantRevenue": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "sePct": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
   },
   "qualitative": {
     "insights": {
-      "p1": { "2024": "", "2025": "", "2026": "", "2027": "", "2028": "", "2029": "", "2030": "" },
-      "p2": { "2024": "", "2025": "", "2026": "", "2027": "", "2028": "", "2029": "", "2030": "" },
-      "p3": { "2024": "", "2025": "", "2026": "", "2027": "", "2028": "", "2029": "", "2030": "" }
+      "p1": {
+        "2024": "TEST",
+        "2025": "",
+        "2026": "",
+        "2027": "",
+        "2028": "",
+        "2029": "",
+        "2030": ""
+      },
+      "p2": {
+        "2024": "",
+        "2025": "",
+        "2026": "",
+        "2027": "",
+        "2028": "",
+        "2029": "",
+        "2030": ""
+      },
+      "p3": {
+        "2024": "",
+        "2025": "",
+        "2026": "",
+        "2027": "",
+        "2028": "",
+        "2029": "",
+        "2030": ""
+      }
     },
     "mediaStats": [
-      { "val": "2.4M", "label": "Total media reach" },
-      { "val": "18",   "label": "Press mentions" },
-      { "val": "6",    "label": "Broadcast appearances" }
+      {
+        "val": "2.4M",
+        "label": "Total media reach"
+      },
+      {
+        "val": "18",
+        "label": "Press mentions"
+      },
+      {
+        "val": "6",
+        "label": "Broadcast appearances"
+      }
     ],
     "politicalItems": [
       "Invited to present to the Joint Oireachtas Committee on Education — March 2025",
@@ -47,8 +288,16 @@
       "Participant in European Commission AI Literacy working group"
     ],
     "partners": [
-      "Google", "Salesforce", "NTT Data", "AWS",
-      "Dept. of Education", "Dept. of Gaeltacht", "SOLAS", "ETBs", "QQI", "IUA"
+      "Google",
+      "Salesforce",
+      "NTT Data",
+      "AWS",
+      "Dept. of Education",
+      "Dept. of Gaeltacht",
+      "SOLAS",
+      "ETBs",
+      "QQI",
+      "IUA"
     ],
     "fundraisingItems": [
       "Multi-annual funding secured from Dept. of Education 2024–2026 — €1.05M",
@@ -57,37 +306,85 @@
       "Exploring IUA MicroCreds partnership with two third-level institutions"
     ],
     "socialStats": [
-      { "val": "12.4K", "label": "LinkedIn followers" },
-      { "val": "8.2K",  "label": "X / Twitter" },
-      { "val": "6.1K",  "label": "Instagram" },
-      { "val": "48K",   "label": "Monthly web visits" }
+      {
+        "val": "12.4K",
+        "label": "LinkedIn followers"
+      },
+      {
+        "val": "8.2K",
+        "label": "X / Twitter"
+      },
+      {
+        "val": "6.1K",
+        "label": "Instagram"
+      },
+      {
+        "val": "48K",
+        "label": "Monthly web visits"
+      }
     ],
     "stories": [
       {
-        "org":   "Primary school, Co. Galway",
+        "org": "Primary school, Co. Galway",
         "quote": "The Kinia programme transformed how I approach STEM. I now run a coding club with 40 pupils — something I never would have had the confidence to do before.",
-        "attr":  "5th class teacher, DEIS school"
+        "attr": "5th class teacher, DEIS school"
       },
       {
-        "org":   "Youth service, Dublin 17",
+        "org": "Youth service, Dublin 17",
         "quote": "Our young people — many of whom have never seen themselves as 'tech people' — are now designing apps, building robots and talking about careers in engineering. Kinia made that possible.",
-        "attr":  "Youth worker, community organisation"
+        "attr": "Youth worker, community organisation"
       }
     ],
     "pie1": {
-      "labels": ["Socio-econ. disadvantage", "Rural communities", "Girls in STEM", "Irish language", "Traveller / ethnic minority"],
-      "data":   [38, 24, 18, 12, 8],
-      "colors": ["#262262", "#f37021", "#9dceef", "#b9f24c", "#fad4d6"]
+      "labels": [
+        "Socio-econ. disadvantage",
+        "Rural communities",
+        "Girls in STEM",
+        "Irish language",
+        "Traveller / ethnic minority"
+      ],
+      "data": [
+        38,
+        24,
+        18,
+        12,
+        8
+      ],
+      "colors": [
+        "#262262",
+        "#f37021",
+        "#9dceef",
+        "#b9f24c",
+        "#fad4d6"
+      ]
     },
     "pie2": {
-      "labels": ["Formal (schools)", "Non-formal (youth work)"],
-      "data":   [62, 38],
-      "colors": ["#262262", "#f37021"]
+      "labels": [
+        "Formal (schools)",
+        "Non-formal (youth work)"
+      ],
+      "data": [
+        62,
+        38
+      ],
+      "colors": [
+        "#262262",
+        "#f37021"
+      ]
     },
     "pie3": {
-      "labels": ["English medium", "Irish medium"],
-      "data":   [78, 22],
-      "colors": ["#262262", "#b9f24c"]
+      "labels": [
+        "English medium",
+        "Irish medium"
+      ],
+      "data": [
+        78,
+        22
+      ],
+      "colors": [
+        "#262262",
+        "#b9f24c"
+      ]
     }
   }
 }
